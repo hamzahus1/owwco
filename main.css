@@ -1,0 +1,100 @@
+/*
+  normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
+*/
+@import url("normalize.css");
+/* 
+  Google Font:
+  Martel Sans for Headers && Source Serif Pro for block of text
+*/
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&family=Source+Serif+Pro:wght@400;600&display=swap");
+/*
+  Css Variable & container adjust
+  FOR TEXT    :: font-family: "Source Serif Pro", serif;
+  FOR HEADING :: font-family: "Martel Sans", sans-serif;
+*/
+:root {
+  --mainColor: #292929;
+  --whatColor: #fff;
+  --paddingRight: 15px;
+  --paddingLeft: 15px;
+  --container-max-widths: 1140px;
+}
+.container {
+  width: var(--container-max-widths);
+  padding-right: var(--paddingRight);
+  padding-left: var(--paddingLeft);
+  margin-right: auto;
+  margin-left: auto;
+}
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+/*
+  Box Sizing for CSS box model
+*/
+* {
+  box-sizing: border-box;
+}
+/*
+  Typography
+*/
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+  color: var(--whatColor);
+}
+/*
+  Element Stylesheet 
+*/
+img {
+  width: 15%;
+}
+.box {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: inherit;
+  background: var(--mainColor);
+}
+.box h1 {
+  text-align: center;
+  font-family: "Martel Sans", sans-serif;
+}
+.box h3 {
+  font-weight: 300;
+  opacity: 0.5;
+  font-family: "Martel Sans", sans-serif;
+}
+.box p {
+  font-size: 1.4em;
+  width: 80%;
+  font-family: "Source Serif Pro", serif;
+  text-align: center;
+}
+.box h4 {
+  color: white;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  font-family: "Martel Sans", sans-serif;
+}
+.box ul {
+  list-style: none;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+.box ul li {
+  margin-top: 0.51rem;
+}
+.box ul li a {
+  text-decoration: none;
+  color: #0a0824;
+}
+.bag img {
+  width: 500px;
+  float: left;
+}
+/*# sourceMappingURL=mine.css.map */
